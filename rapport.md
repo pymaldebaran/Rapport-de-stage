@@ -1,10 +1,14 @@
 ---
-title: Développement d'une application Web de représentation 3d des systèmes planétaire sur le portail exoplanetes de l'Observatoire de Paris
 author: Thomas Bédrine, Département informatique
 date: 20 décembre 2021
 geometry: margin=2cm
 output: pdf_document
 fontsize: 10pt
+header-includes: |
+    \usepackage{utbmcovers}
+    \setutbmfrontillustration{./images/CatLolCatExample.jpg}
+    \setutbmtitle{Exo3d}
+    \setutbmsubtitle{Développement d'une application Web de représentation 3d des systèmes planétaire sur le portail exoplanet.eu de l'Observatoire de Paris}
 ---
 
 \newpage
@@ -259,3 +263,5 @@ Inconvénients de babylon.js :
 
 - comme les petites opérations sont faites automatiquement par la librairie, il est possible que l'on soit tôt ou tard confronté à un problème qui nécessite un paramétrage et/ou une intervention plus ciblée que ce que permet babylon (donc d'avoir recours à three.js pur)
 - la communauté est moins nombreuse donc probablement moins de pros capables de nous aider
+
+\makeutbmbackcover{}
