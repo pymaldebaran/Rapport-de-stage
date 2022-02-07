@@ -1,6 +1,6 @@
 # generate the whole report
 pandoc:
-	pandoc --pdf-engine=xelatex --toc --include-before=remerciements.md rapport.md -o rapport.pdf
+	pandoc --pdf-engine=xelatex rapport.md -o rapport.pdf
 
 # install the UTBM LaTeX template
 install-utbm:
