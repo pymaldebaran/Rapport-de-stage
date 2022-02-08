@@ -67,19 +67,53 @@ Un troisième aspect a été envisagé pour le nouveau site : la modélisation e
 
 ## Lexique et terminologie
 
-| Termes d'origine  | Domaine rattaché     | Définition                                                                                                                                                                                                                       |
-| ----------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sprint            | Méthode agile        |
-| Main              | Git & GitLab         | La version officielle et principale du projet. C'est celle qui est accessible au public (lecture seule).                                                                                                                         |
-| Branche           | Git & GitLab         | Une copie sur du projet sur laquelle les développeurs peuvent travailler. Elle peut ensuite être intégrée au main avec l'accord des gestionnaires du Git.                                                                        |
-| Commit            | Git & GitLab         | Une sauvegarde locale d'une portion de branche. Plusieurs commits permettent de recenser des modifications régulières sur cette branche.                                                                                         |
-| Push              | Git & GitLab         | L'action de sauvegarder toutes les modifications d'une branche sur la version en ligne du Git. Un push doit contenir au moins un commit, et peut être suivi par un merge request.                                                |
-| Merge (request)   | Git & GitLab         | L'action de fusionner une branche avec le main. Le request est la demande de cette action adressée aux gestionnaires.                                                                                                            |
-| Issue             | Git & GitLab         | Une fonctionnalité ou un problème à régler dans le cadre d'un sprint, elle doit être traitée dans une branche.                                                                                                                   |
-| Milestone         | Git & GitLab         | Un ensemble d'issues à terminer pour achever un objectif majeur.                                                                                                                                                                 |
-| V1 / V2 / V3      | Spécifique au projet | Ces termes désignent les grandes catégories du projet sous formes de milestones. Chaque V (version) correspond à une ou plusieurs fonctionnalités-clés à mettre en oeuvre avant de passer à la suivante.                         |
-| Refactoring       | Développement        | Un processus de réécriture du code pour le rendre plus propre et/ou conforme à un standard de développement particulier. Un refactoring ne doit pas modifier le fonctionnement du programme, seulement la structure de son code. |
-| Mesh (pl: meshes) | Développement 3D     | Un ensemble de formes géométriques assemblées pour représenter une forme en 3D.                                                                                                                                                  |
++-------------------+----------------------+------------------------------------------------------+
+| Termes d'origine  | Domaine rattaché     | Définition                                           |
++===================+======================+======================================================+
+| Sprint            | Méthode agile        |                                                      |
++-------------------+----------------------+------------------------------------------------------+
+| Main              | Git & GitLab         | La version officielle et principale du projet. C'est |
+|                   |                      | celle qui est accessible au public (lecture seule).  |
++-------------------+----------------------+------------------------------------------------------+
+| Branche           | Git & GitLab         | Une copie sur du projet sur laquelle les             |
+|                   |                      | développeurs peuvent travailler. Elle peut ensuite   |
+|                   |                      | être intégrée au main avec l'accord des              |
+|                   |                      | gestionnaires du Git.                                |
++-------------------+----------------------+------------------------------------------------------+
+| Commit            | Git & GitLab         | Une sauvegarde locale d'une portion de branche.      |
+|                   |                      | Plusieurs commits permettent de recenser des         |
+|                   |                      | modifications régulières sur cette branche.          |
++-------------------+----------------------+------------------------------------------------------+
+| Push              | Git & GitLab         | L'action de sauvegarder toutes les modifications     |
+|                   |                      | d'une branche sur la version en ligne du Git. Un     |
+|                   |                      | push doit contenir au moins un commit, et peut être  |
+|                   |                      | suivi par un merge request.                          |
++-------------------+----------------------+------------------------------------------------------+
+| Merge (request)   | Git & GitLab         | L'action de fusionner une branche avec le main. Le   |
+|                   |                      | request est la demande de cette action adressée aux  |
+|                   |                      | gestionnaires.                                       |
++-------------------+----------------------+------------------------------------------------------+
+| Issue             | Git & GitLab         | Une fonctionnalité ou un problème à régler dans le   |
+|                   |                      | cadre d'un sprint, elle doit être traitée dans une   |
+|                   |                      | branche.                                             |
++-------------------+----------------------+------------------------------------------------------+
+| Milestone         | Git & GitLab         | Un ensemble d'issues à terminer pour achever un      |
+|                   |                      | objectif majeur.                                     |
++-------------------+----------------------+------------------------------------------------------+
+| V1 / V2 / V3      | Spécifique au projet | Ces termes désignent les grandes catégories du       |
+|                   |                      | projet sous formes de milestones. Chaque V (version) |
+|                   |                      | correspond à une ou plusieurs fonctionnalités-clés à |
+|                   |                      | mettre en oeuvre avant de passer à la suivante.      |
++-------------------+----------------------+------------------------------------------------------+
+| Refactoring       | Développement        | Un processus de réécriture du code pour le rendre    |
+|                   |                      | plus propre et/ou conforme à un standard de          |
+|                   |                      | développement particulier. Un refactoring ne doit    |
+|                   |                      | pas modifier le fonctionnement du programme,         |
+|                   |                      | seulement la structure de son code.                  |
++-------------------+----------------------+------------------------------------------------------+
+| Mesh (pl: meshes) | Développement 3D     | Un ensemble de formes géométriques assemblées pour   |
+|                   |                      | représenter une forme en 3D.                         |
++-------------------+----------------------+------------------------------------------------------+
 
 \newpage
 

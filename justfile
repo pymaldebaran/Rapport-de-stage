@@ -1,6 +1,6 @@
 # generate the whole report
 pandoc:
-	pandoc --pdf-engine=xelatex rapport.md -o rapport.pdf
+	pandoc --from=markdown+grid_tables --to=pdf --pdf-engine=xelatex rapport.md -o rapport.pdf
 
 # install the UTBM LaTeX template
 install-utbm:
@@ -12,4 +12,4 @@ install-utbm:
 	mkdir -p "$HOME/texmf/tex/latex/"
 	cp -r utbm-latex-internship-report-covers "$HOME/texmf/tex/latex/"
 	sudo mktexlsr
-	sudo update-updmap --quiet
+	sudo update-updmap --quiet # or updmap -user on fedora
